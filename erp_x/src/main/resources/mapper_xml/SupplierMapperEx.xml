@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xue.erp.datasource.mappers.SupplierMapperEx">
+    <select id="selectByConditionSupplier" parameterType="com.xue.erp.datasource.entities.SupplierExample" resultMap="com.xue.erp.datasource.mappers.SupplierMapper.BaseResultMap">
+        select *
+        FROM supplier
+        where 1=1
+        <if test="supplier != null">
+            and supplier like '%${supplier}%'
+        </if>
+        <if test="type != null">
+            and type='${type}'
+        </if>
+        <if test="phonenum != null">
+            and phonenum like '%${phonenum}%'
+        </if>
+        <if test="telephone != null">
+            and telephone like '%${telephone}%'
+        </if>
+        <if test="description != null">
+            and description like '%${description}%'
+        </if>
+        <if test="offset != null and rows != null">
+            limit #{offset},#{rows}
+        </if>
+    </select>
+    <select id="countsBySupplier" resultType="java.lang.Long">
+        SELECT
+        COUNT(id)
+        FROM supplier
+        WHERE 1=1
+        <if test="supplier != null">
+            and supplier like '%${supplier}%'
+        </if>
+        <if test="type != null">
+            and type='${type}'
+        </if>
+        <if test="phonenum != null">
+            and phonenum like '%${phonenum}%'
+        </if>
+        <if test="telephone != null">
+            and telephone like '%${telephone}%'
+        </if>
+        <if test="description != null">
+            and description like '%${description}%'
+        </if>
+    </select>
+
+    <select id="findByAll" parameterType="com.xue.erp.datasource.entities.SupplierExample" resultMap="com.xue.erp.datasource.mappers.SupplierMapper.BaseResultMap">
+        select *
+        FROM supplier
+        where 1=1
+        <if test="supplier != null">
+            and supplier like '%${supplier}%'
+        </if>
+        <if test="type != null">
+            and type='${type}'
+        </if>
+        <if test="phonenum != null">
+            and phonenum like '%${phonenum}%'
+        </if>
+        <if test="telephone != null">
+            and telephone like '%${telephone}%'
+        </if>
+        <if test="description != null">
+            and description like '%${description}%'
+        </if>
+    </select>
+</mapper>

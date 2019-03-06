@@ -1,0 +1,1 @@
+nohup java -XX:+CreateMinidumpOnCrash -cp ./conf:./lib/*: com.xue.erp.ErpApplication > /dev/null 2>&1 &
