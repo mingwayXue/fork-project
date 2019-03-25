@@ -1,0 +1,30 @@
+${AnsiColor.BLUE}
+====================================================================================================================================
+
+                                 欢迎使用 XBlog 博客系统 - Powered By https://mingway.xyz
+
+                       XXXXXXX       XXXXXXXBBBBBBBBBBBBBBBBB                    lllllll
+                       X:::::X       X:::::XB::::::::::::::::B                   l:::::l
+                       X:::::X       X:::::XB::::::BBBBBB:::::B                  l:::::l
+                       X::::::X     X::::::XBB:::::B     B:::::B                 l:::::l
+                       XXX:::::X   X:::::XXX  B::::B     B:::::B   ooooooooooo    l::::l    ggggggggg   ggggg
+                          X:::::X X:::::X     B::::B     B:::::B oo:::::::::::oo  l::::l   g:::::::::ggg::::g
+                           X:::::X:::::X      B::::BBBBBB:::::B o:::::::::::::::o l::::l  g:::::::::::::::::g
+                            X:::::::::X       B:::::::::::::BB  o:::::ooooo:::::o l::::l g::::::ggggg::::::gg
+                            X:::::::::X       B::::BBBBBB:::::B o::::o     o::::o l::::l g:::::g     g:::::g
+                           X:::::X:::::X      B::::B     B:::::Bo::::o     o::::o l::::l g:::::g     g:::::g
+                          X:::::X X:::::X     B::::B     B:::::Bo::::o     o::::o l::::l g:::::g     g:::::g
+                       XXX:::::X   X:::::XXX  B::::B     B:::::Bo::::o     o::::o l::::l g::::::g    g:::::g
+                       X::::::X     X::::::XBB:::::BBBBBB::::::Bo:::::ooooo:::::ol::::::lg:::::::ggggg:::::g
+                       X:::::X       X:::::XB:::::::::::::::::B o:::::::::::::::ol::::::l g::::::::::::::::g
+                       X:::::X       X:::::XB::::::::::::::::B   oo:::::::::::oo l::::::l  gg::::::::::::::g
+                       XXXXXXX       XXXXXXXBBBBBBBBBBBBBBBBB      ooooooooooo   llllllll    gggggggg::::::g
+                                                                                                     g:::::g
+                                                                                         gggggg      g:::::g
+                                                                                         g:::::gg   gg:::::g
+                                                                                          g::::::ggg:::::::g
+                                                                                           gg:::::::::::::g
+                                                                                             ggg::::::ggg
+                                                                                                gggggg
+                                              当前SpringBoot版本 :: ${spring-boot.version}
+====================================================================================================================================
